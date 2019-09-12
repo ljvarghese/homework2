@@ -1,0 +1,70 @@
+/* worked with Julia Maxwell, Mark Ramirez, and Joe Muller */
+
+/* Lucida Grande font with a sans-serif fallback */
+/* All text is “white” on a “black” background */
+body{
+    font-family:"Lucida Grande",Sans-Serif; color:white; background: black;
+}
+/* Header 1 is 64px, centered */
+
+h1{
+    font-size:64px; text-align:center;
+}
+/* Header 2 is 32px, with “black” drop shadow that is offset 4px horizontally, 4px vertically, and 2px blur */
+h2{
+    font-size:32px; text-shadow: 4px 4px 2px black;
+}
+/* Paragraphs are 16px with 15px padding on the top only */
+p{
+    font-size:16px; padding-top: 15px;
+}
+/* Images match the following styles: */
+/* All images are on their own line */
+/* All images are centered  */
+/* All images are 550px wide with proper aspect ratio (they are not warped or stretched) */
+img{
+    display:block; width: 550px; margin:auto;
+}
+
+/* All divs must be at least 100px tall (but will automatically be taller if needed) with 30px padding on all sides. */
+div{
+    min-height: 100px; padding: 30px;
+}
+/* Red div has the following styles: */
+/* Background color is “red” */
+/* Text is aligned on the right side  */
+#red{
+    background: red; text-align: right;
+}
+
+
+/* Blue div has the following styles */
+/* Background color is “blue” */
+/* Text is aligned on the left side */
+#blue{
+    background: blue; text-align: left;
+}
+
+/* Yellow div has the following styles
+Background color is “yellow”
+Text is aligned on the right side
+Header 2 and paragraph text is “black”
+Header 2 drop shadow is “grey” with the same parameters as above */
+#yellow{
+    background: yellow; text-align: right; color: black;
+}
+
+#yellow > h2{
+    text-shadow: 4px 4px 2px grey;
+}
+
+/* Green div has the following styles
+Background color is “green”
+/* Text is aligned on the left side */
+#green{
+    background: green; text-align: left;
+}
+/* Footer text is centered with 15px padding on the bottom only */
+footer{
+    text-align: center; padding-bottom: 15px;
+}
